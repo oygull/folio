@@ -5,14 +5,197 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Folio</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+  <section id="site-header">
+    <header class="site-header row middle between">
+         <a class="header-logo" href="#"> <h4 >folio.</h4> </a> 
+        <nav class="site-nav">
+          <ul class="nav-list row middle">
+            <li class="nav-item hover-box" >creative demos <i class='bx bx-chevron-down'></i>
+              <div class="dropdowm-content">
+                <ul>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">design 01</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">design 02</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">developer 01</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">developer 02</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">agency 01</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">agency 02</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">photography 01</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">photography 02</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">pages <i class='bx bx-chevron-down'></i>
+              <div class="dropdowm-content">
+                <ul>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">portfolio</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">portfolio details</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">about</a></li>
+                  <li class="dropdown-item"><a href="#" class="drowdown-link">contact</a></li>
+                </ul>
+              </div></li>
+            <li class="nav-item"><a href="#" class="nav-link">about me.</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">contact.</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">support</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="hero-part">
+      <div class="container">
+        <div class="hero-inner row">
+          <div class="hero-desc">
+            <p class="hero-text">ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER</p>
+            <h2 class="hero-title">I design digital crafts for clients.</h2>
+            <a href="#works" class="hero-btn"><span>Explore Works</span>  <i class='bx bx-right-arrow-alt'></i></a>
+          </div>
+          <div class="hero-img">
+            <img src="images/hero-img.png" alt="hero-img" width="445" height="480">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="mode-version row">
+    <button id="modeBtn" class="mode-btn"><i id="btnIcon" class='bx bx-chevron-right'></i></button>
+    <div id="versionBox" class="version-box">
+      <p class="version-text">Change Version</p>
+      <div class="version-btns row middle">
+        <div id="lightBtn" class="version-btn">Light</div>
+        <div id="darkBtn" class="version-btn">Dark</div>
+      </div>
+    </div>
+  </div>
+  <section id="works">
+    <div class="container">
+      <ul class="tiltle-list row middle">
+        <li class="tilte-item active"><a href="#" class="title-link">ALL WORKS</a></li>
+        <li class="tilte-item"><a href="#" class="title-link">BRANDING</a></li>
+        <li class="tilte-item"><a href="#" class="title-link">UX DESIGN</a></li>
+        <li class="tilte-item"><a href="#" class="title-link">PHOTOGRAPHY</a></li>
+      </ul>
+    </div>
+    <div class="wrapper row">
+      <div class="grid-box1 col-6">
+        <div class="box-content">
+          <img class="box-img" src="images/img1.jpeg" alt="img">
+          <div class="box-desc">
+            <p class="box-par">Web</p>
+            <h4 class="box-heading">Perfumed</h4>
+          </div>
+        </div>
+        <div class="box-content">
+          <img class="box-img" src="images/img2.jpeg" alt="img">
+          <div class="box-desc">
+            <p class="box-par">Photography</p>
+            <h4 class="box-heading">Travel App</h4>
+          </div>
+        </div>
+        <div class="box-content">
+          <img class="box-img" src="images/img3.jpeg" alt="img">
+          <div class="box-desc">
+            <p class="box-par">Branding</p>
+            <h4 class="box-heading">Travel App</h4>
+          </div>
+        </div>
+        <div class="box-content">
+          <img class="box-img" src="images/img4.jpeg" alt="img">
+          <div class="box-desc">
+            <p class="box-par">Branding</p>
+            <h4 class="box-heading">Ice Cream</h4>
+          </div>
+        </div>
+        <div class="box-content">
+          <img class="box-img" src="images/img5.jpeg" alt="img">
+          <div class="box-desc">
+            <p class="box-par">Marketing</p>
+            <h4 class="box-heading">Smart Film</h4>
+          </div>
+        </div>
+        <div class="box-content">
+          <img class="box-img" src="images/img6.jpeg" alt="img">
+          <div class="box-desc">
+            <p class="box-par">Marketing</p>
+            <h4 class="box-heading">Coffee Cream</h4>
+          </div>
+        </div>
+        <div class="box-content">
+          <img class="box-img" src="images/img7.jpeg" alt="img">
+          <div class="box-desc">
+            <p class="box-par">UX-design</p>
+            <h4 class="box-heading">Candy Store</h4>
+          </div>
+        </div>
+        <div class="box-content">
+          <img class="box-img" src="images/img8.jpeg" alt="img">
+          <div class="box-desc">
+            <p class="box-par">UX-design</p>
+            <h4 class="box-heading">Coffee Roast</h4>
+          </div>
+        </div>
+      </div>
+      <div class="grid-box2 col-6">
+          <div class="box-content2">
+            <img class="box-img2" src="images/box-img1.jpeg" alt="img">
+            <div class="box-desc exclude ">
+              <p class="box-par">Marketing</p>
+              <h4 class="box-heading">Shopper</h4>
+            </div>
+          </div>
+          <div class="box-content2">
+            <img class="box-img2" src="images/box-img2.jpeg" alt="img">
+            <div class="box-desc exclude">
+              <p class="box-par">Branding</p>
+              <h4 class="box-heading">Candy store</h4>
+            </div>
+          </div>
+          <div class="box-content2">
+            <img class="box-img " src="images/box-img3.jpeg" alt="img">
+            <div class="box-desc ">
+              <p class="box-par">Branding</p>
+              <h4 class="box-heading">Camera</h4>
+            </div>
+          </div>
+          <div class="box-content2">
+            <img class="box-img" src="images/box-img4.jpeg" alt="img">
+            <div class="box-desc">
+              <p class="box-par">Smart Watch</p>
+              <h4 class="box-heading">Candy store</h4>
+            </div>
+          </div>
+          <div class="box-content2">
+            <img class="box-img" src="images/box-img5.jpeg" alt="img">
+            <div class="box-desc">
+              <p class="box-par">Marketing</p>
+              <h4 class="box-heading">Noodles</h4>
+            </div>
+          </div>
+          <div class="box-content2">
+            <img class="box-img" src="images/box-img6.jpeg" alt="img">
+            <div class="box-desc">
+              <p class="box-par">UX-design</p>
+              <h4 class="box-heading">Laptop desk</h4>
+            </div>
+          </div>
+    </div>
+  </section>
+  <section class="projects">
+    <p class="projects-title">AVAILABLE FOR FREELANCE PROJECTS</p>
+    <h2 class="projects-heading">Do you have illustration <br> project? Let's talk.</h2>
+    <a href="#" class="projects-btn row middle"><i class='bx bxs-message-rounded-dots' ></i>Let's talk now </a>
+  </section>
+  <div class="copyright">
+    <p class="copyright-text">© 2020 ALL RIGHT RESEVED</p>
+  </div>
   <script src="js/main.js"></script>
 </body>
 
